@@ -1,0 +1,33 @@
+html,body{
+    height : 100%;
+    width : 100%;
+    background-color: linen;
+    font-family:"Lucida Console","Courier New", monospace;
+    }
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 30;
+
+}
+.right {
+  right: 20px;
+  text-align:right;
+  padding-top: 250px;
+  font-size: 25px;
+}
+.centered img {
+  width: 500px;
+  border-radius: 100%;
+}
+.centered class="Details"{
+    font-size: 10px;
+}
